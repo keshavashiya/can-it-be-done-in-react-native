@@ -1,10 +1,10 @@
 import * as React from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
-
 import { StackNavigationProp } from "@react-navigation/stack";
 import { useNavigation } from "@react-navigation/native";
-import { Routes } from "../Routes";
 import { RectButton } from "react-native-gesture-handler";
+
+import { Routes } from "../Routes";
 import { StyleGuide } from "../components";
 
 export const examples = [
@@ -19,6 +19,26 @@ export const examples = [
   {
     screen: "Transitions",
     title: "🔁 Transitions",
+  },
+  {
+    screen: "Chart",
+    title: "📈 Chart",
+  },
+  {
+    screen: "JellyScroll",
+    title: "🍩 Jelly Scroll",
+  },
+  {
+    screen: "MaskedView",
+    title: "📱 Masked View",
+  },
+  {
+    screen: "Accordion",
+    title: "🗺 Accordion",
+  },
+  {
+    screen: "Wave",
+    title: "🌊 Wave",
   },
 ] as const;
 
